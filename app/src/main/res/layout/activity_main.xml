@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="csitmnr.bsccsitsyllabus.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="First Semester"
+        android:id="@+id/fsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Second Semester"
+        android:layout_below="@+id/fsemester"
+        android:id="@+id/secondsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Third Semester"
+        android:id="@+id/thirdsemester"
+        android:layout_below="@+id/secondsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Fourth Semester"
+        android:id="@+id/fourthsemester"
+        android:layout_below="@+id/thirdsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Fifth Semester"
+        android:id="@+id/fifthsemester"
+        android:layout_below="@+id/fourthsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Sixth Semester"
+        android:id="@+id/sixthsemester"
+        android:layout_below="@+id/fifthsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Seventh Semester"
+        android:id="@+id/seventhsemester"
+        android:layout_below="@+id/sixthsemester"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:hint="Eighth Semester"
+        android:id="@+id/eighthsemester"
+        android:layout_below="@+id/seventhsemester"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="csitmnr.bsccsitsyllabus" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bsccsit_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstSemester">
+            <intent-filter>
+                <action android:name="android.bsccsitsyllabus.FIRSTSEMESTER"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondSemester">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.SECONDSEMESTER"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdSemester">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.THIRDSEMESTER"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".FourthSemester">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.FOURTHSEMESTER"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Content">
+            <intent-filter>
+                <action android:name="android.bsccsitsyllabus.CONTENT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".FundamentalOfInformationTechnology">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.FUNDAMENTALOFINFORMATIONTECHNOLOGY"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ComputeProgramming">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.COMPUTERPROGRAMMING"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProbabilityStastics">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.PROBABILITYSTATISTICS"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Calculus">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.CALCULUS"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PhysicsI">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.PHYSICSI"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".BiologyI">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.BIOLOGYI"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GeologyI">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.GEOLOGYI"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".StatisticsI">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.STATISTICSI"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DigitalLogic">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.DIGITALLOGIC"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DiscreteStructure">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.DISCRETESTRUCTURE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Microprocessor">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.MICROPROCESSOR"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataStructureAlgorithm">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.DATASTRUCTUREALGORITHM"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LinearAlgebra">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.LINEARALGEBRA"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".StatisticsII">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.STATISTICSII"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ComputerArchitecture">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.COMPUTERARCHITECTURE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cpp">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.CPP"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".OperatingSystem">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.OPERATINGSYTEM"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NumericalMethod">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.NUMERICALMETHOD"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntrotoManagement">
+            <intent-filter>
+                <action android:name="android.csitmnr.bsccsitsyllabus.MANAGEMENT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
